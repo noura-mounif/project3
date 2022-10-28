@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "rp-poetry"
+version = "0.1.0"
+description = ""
+authors = ["[noura mounif] <[noura.mounif.etu@univ-lille.fr]>"]
+readme = "README.md"
+packages = [{include = "rp_poetry"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
